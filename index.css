@@ -1,0 +1,35 @@
+
+/* Universal selector * */
+* {
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Type selectors */
+div {
+    color: white;
+}
+
+/* Class Selectors - Select all elements with the given class, remember the syntax class selectors starts with Period */
+.alert-text {
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* ID Selectors */
+#title {
+    background-color: red;
+}
+
+/* Chaining Selectors */
+.subsection.header {
+    color: red;
+}
+
+img {
+    height: auto;
+    width: 500px;
+}
+
